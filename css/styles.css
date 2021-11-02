@@ -1,0 +1,68 @@
+:root {
+    --dark-purple: #210B2C;
+    --baby-white: #FDFFFC;
+    --skobeloff: #156064;
+    --french-pink: #FF70A6;
+}
+
+body {
+    background-color: var(--dark-purple);
+    color: var(--baby-white);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin: auto;
+    padding: 8px;
+    padding-bottom: 0;
+    width: 1440px;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: 188.19px;
+    justify-content: center;
+    padding: 20.9px 0;
+}
+
+#my-photo {
+    border-radius: 24%;
+    padding: 0px 8px;
+}
+
+.titles {
+    background-color: var(--skobeloff);
+    letter-spacing: 4px;
+}
+
+#main-title {
+    background-color: transparent;
+    padding: 0px 8px;
+}
+
+.hero {
+    font-size: 24px;
+    margin: auto;
+    max-width: 800px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.list-headings, .indent-info span:first-child {
+    font-weight: 700;
+}
+
+.indent-info {
+    display: inline-flex;
+    width: 100%;
+}
+
+.indent-info span:last-child {
+    padding-left: 8px;
+}
+
+footer {
+    color: var(--dark-purple);
+    background-color: var(--french-pink);
+    font-weight: 700;
+    margin-top: 24px;
+    text-align: center;
+}
